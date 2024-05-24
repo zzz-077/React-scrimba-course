@@ -117,3 +117,50 @@ text.textContent = "hello from react again";
 text.className = "header";
 document.querySelector("#root").append(text);
 */
+//////////////////////////////
+/*
+const navbar = (
+  <nav>
+    <h1>Brand</h1>
+    <ul>
+      <li>
+        <a href="">Main</a>
+      </li>
+      <li>
+        <a href="">About</a>
+      </li>
+      <li>
+        <a href="">SignIn</a>
+      </li>
+    </ul>
+  </nav>
+);
+
+ReactDOM.render(navbar, document.querySelector("#root"));
+*/
+//////////////////////////////
+/*
+const navbar = (
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Courses</li>
+  </ul>
+);
+//1 way
+const root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(navbar);
+//2 way
+ReactDOM.createRoot(document.querySelector("#root")).render(navbar);
+*/
+//////////////////////////////
+
+const navbar = (
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Courses</li>
+  </ul>
+);
+const root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(navbar);
