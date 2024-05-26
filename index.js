@@ -154,7 +154,7 @@ root.render(navbar);
 ReactDOM.createRoot(document.querySelector("#root")).render(navbar);
 */
 //////////////////////////////
-
+/*
 const navbar = (
   <ul>
     <li>Home</li>
@@ -164,3 +164,66 @@ const navbar = (
 );
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(navbar);
+*/
+//////////////////////////////
+/*
+function Page() {
+  return (
+    <div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Courses</li>
+      </ul>
+      <p>this is main content</p>
+      <footer>"© 20xx development. All rights reserved."</footer>
+    </div>
+  );
+}
+ReactDOM.render(<Page />, document.querySelector("#root"));
+*/
+//////////////////////////////
+/*
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="./react-logo.png" width="40px" />
+      </nav>
+    </header>
+  );
+}
+function Footer() {
+  return (
+    <footer>
+      <small>© 2021 Ziroll development. All rights reserved.</small>
+    </footer>
+  );
+}
+function Main() {
+  return (
+    <div>
+      <h1>Reasons I'm excited to learn React</h1>
+      <ol>
+        <li>
+          It's a popular library, so I'll be able to fit in with the cool kids!
+        </li>
+        <li>I'm more likely to get a job as a developer if I know React</li>
+      </ol>
+    </div>
+  );
+}
+
+function Page() {
+  return (
+    <div>
+      <Header />
+
+      <Main />
+      <Footer />
+    </div>
+  );
+}
+
+ReactDOM.render(<Page />, document.getElementById("root"));
+*/
