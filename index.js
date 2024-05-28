@@ -228,6 +228,7 @@ function Page() {
 ReactDOM.render(<Page />, document.getElementById("root"));
 */
 //////////////////////////////
+/*
 import Header from "./Header";
 
 function Footer() {
@@ -261,3 +262,4 @@ function Page() {
   );
 }
 ReactDOM.render(<Page />, document.getElementById("root"));
+*/
